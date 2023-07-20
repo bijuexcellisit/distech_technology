@@ -19,7 +19,6 @@ class _SplashScreenState extends State<SplashScreen> {
         () => context.pushReplacement(const WelcomeScreen()));
     super.initState();
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
